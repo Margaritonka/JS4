@@ -9,8 +9,3 @@ let newInt = int.slice(0, 3);
 let newInt2 = int.slice(5, 7);
 newInt.push(...newInt2);
 console.log(newInt);
-
-
-
-
-

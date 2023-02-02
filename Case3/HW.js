@@ -9,3 +9,30 @@ for (let i = 0; i < 5; i++) {
     arr.push(Math.floor(Math.random(0, 10) * 10));
 }
 console.log(arr);
+
+
+
+let sum = 0;
+for (let i = 0; i < arr.length; i++) {
+    sum = sum + arr[i];
+}
+console.log(sum);
+
+
+
+let min = arr[0];
+for (let i = 0; i < arr.length; i++) {
+    if (arr[i] < min) {
+        min = arr[i];
+    }
+}
+console.log(min);
+
+
+
+let find = 3;
+for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === find) {
+        console.log(`В массиве есть число ${find}. Его индекс ${i}`);
+    }
+}
